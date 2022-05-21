@@ -38,7 +38,7 @@ Register Number:21500895
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-image1=cv2.imread('birdg.jpg',0)
+image1=cv2.imread('siva.jpg',0)
 img= cv2.GaussianBlur(image1,(3,3),0)
 plt.imshow(img)
 
